@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('error') {
+    stage('greetings') {
       steps {
-        echo 'hello from server'
+        echo 'hello from devops'
       }
     }
 
